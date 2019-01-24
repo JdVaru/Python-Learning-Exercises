@@ -1,0 +1,26 @@
+# Exercise 9 Guessing Game One
+# Generate a random number between 1 and 9 (including 1 and 9).
+# Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right.
+# Hint: User randint function of random module to generate random numbers
+
+import random
+while True:
+    num=int(input('What\'s your guess? '))
+    a_rand=random.randint(1,9)
+    if num == a_rand:
+        print('Perfect guess !')
+    elif num > a_rand:
+        print('Too High !')
+    else:
+        print('Too Low !')
+    if input('Do you want to try again? y or n: ') != 'y':
+       break
+
+print('Have a good day ahead !')
+
+
+Output:
+What's your guess? 5
+Too High !
+Do you want to try again? y or n: n
+Have a good day ahead !
