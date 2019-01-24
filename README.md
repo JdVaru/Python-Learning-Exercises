@@ -5,4 +5,5 @@
 4) Exercise 4 Divisors
 5) Exercise 5 List Overlap
 6) Exercise 6 Rock Paper Scissors
-7) in progress....
+7) Exercise 7 String Palindrome test
+8) in progress...
