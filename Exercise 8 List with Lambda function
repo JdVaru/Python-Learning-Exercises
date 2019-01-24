@@ -1,0 +1,24 @@
+# Exercise 8 List with Lambda function
+# Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.
+# a_list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# Hint: Use filter() with lambda function to filter data
+
+a_list=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+list(filter(lambda x:x%2==0,a_list))
+
+
+# Write one line of Python that takes this list a and makes a new list that has square values of elements of this list in it.
+# a_list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# Hint: Use map() with lambda function to filter data
+
+a_list=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+list(map(lambda x:x**2,a_list))
+
+
+# Write one line of Python that takes this list and return multiplication of elements of this list in it.
+# a_list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# Hint: Use reduce() with lambda function to filter data
+
+from functools import reduce 
+a_list=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+reduce(lambda x,y:x*y,a_list)
