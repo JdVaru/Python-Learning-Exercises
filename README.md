@@ -7,4 +7,5 @@
 6) Exercise 6 Rock Paper Scissors
 7) Exercise 7 String Palindrome test
 8) Exercise 8 List with Lambda function
-9) in progress...
+9) Exercise 9 Guessing Game One
+10) In progress...
