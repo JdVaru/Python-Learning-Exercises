@@ -6,4 +6,5 @@
 5) Exercise 5 List Overlap
 6) Exercise 6 Rock Paper Scissors
 7) Exercise 7 String Palindrome test
-8) in progress...
+8) Exercise 8 List with Lambda function
+9) in progress...
