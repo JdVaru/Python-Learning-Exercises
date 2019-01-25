@@ -1,0 +1,12 @@
+# Exercise 12 Decode A Web Page
+# Use the BeautifulSoup and requests Python packages to print out a list of all the article titles on the New York Times homepage.
+
+import requests as rqst
+from bs4 import BeautifulSoup as soup
+
+res=rqst.get('http://www.nytimes.com').text
+
+s=soup(res,'lxml')
+
+for x in s.find_all('h2'):
+    print(x.text)
