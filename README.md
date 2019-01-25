@@ -9,4 +9,5 @@
 8) Exercise 8 List with Lambda function
 9) Exercise 9 Guessing Game One
 10) Exercise 10 Password generation
-11) In progress...
+11) Exercise 11 List Comprehensions 
+In progress...
